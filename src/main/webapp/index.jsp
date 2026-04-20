@@ -1,0 +1,16 @@
+<html>
+<head><title>Update Employee</title></head>
+<body>
+
+<h2>Update Employee Details</h2>
+
+<form action="update.jsp" method="post">
+    Emp No (to update): <input type="text" name="empno"><br><br>
+    New Name: <input type="text" name="empname"><br><br>
+    New Salary: <input type="text" name="salary"><br><br>
+
+    <input type="submit" value="Update Employee">
+</form>
+
+</body>
+</html>
